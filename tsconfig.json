@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "marker": [
+        "dist/marker"
+      ],
+      "marker/*": [
+        "dist/marker/*"
+      ],
+      "text-marker": [
+        "dist/text-marker"
+      ],
+      "text-marker/*": [
+        "dist/text-marker/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
