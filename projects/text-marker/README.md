@@ -1,24 +1,33 @@
 # TextMarker
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
 
-## Code scaffolding
+> Simple text marker with customize style
 
-Run `ng generate component component-name --project text-marker` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project text-marker`.
-> Note: Don't forget to add `--project text-marker` or else it will be added to the default project in your `angular.json` file. 
+## Install
 
-## Build
+ > $ npm i text-marker
 
-Run `ng build text-marker` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Publishing
+<jk-text-marker [inputQuery]="searchtext" [styleClass]="styleclassname">
+  your text here...
+<jk-text-marker>
 
-After building your library with `ng build text-marker`, go to the dist folder `cd dist/text-marker` and run `npm publish`.
+inputQuery => user search query.
+styleClass => your custome styleclass name.
 
-## Running unit tests
+Eg:
+.customeStyle {
+  background-color: yellow
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700
+}
 
-Run `ng test text-marker` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Test
 
-## Further help
+ > $ ng test text-marker
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Author
+
+JayaSurya

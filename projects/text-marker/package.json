@@ -1,6 +1,6 @@
 {
   "name": "text-marker",
-  "version": "0.0.3",
+  "version": "1.1.3",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
@@ -14,5 +14,13 @@
     "text-marker"
   ],
   "author": "JayaSurya",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooljayasurya/text-marker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cooljayasurya/text-marker/issues"
+  },
+  "homepage": "https://github.com/cooljayasurya/text-marker#readme"
 }
