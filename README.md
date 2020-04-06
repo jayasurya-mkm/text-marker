@@ -2,7 +2,7 @@
 
 ```<jk-text-marker [inputQuery]="searchtext" [styleClass]="styleclassname">
   your text here...
-<jk-text-marker>
+<jk-text-marker>```
 
 inputQuery => user search query.
 styleClass => your custome styleclass name.
@@ -12,4 +12,4 @@ Eg:
   color: white;
   font-family: sans-serif;
   font-weight: 700
-}```
+}
