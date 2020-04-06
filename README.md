@@ -8,9 +8,9 @@
 
 ## Usage
 
-<jk-text-marker [inputQuery]="searchtext" [styleClass]="styleclassname">
+```<jk-text-marker [inputQuery]="searchtext" [styleClass]="styleclassname">
   your text here...
-<jk-text-marker>
+<jk-text-marker>```
 
 inputQuery => user search query.
 styleClass => your custome styleclass name.
