@@ -7,11 +7,17 @@
  > $ npm i text-marker
 
 ## Usage
+HTML
 ``` html
 <jk-text-marker [inputQuery]="searchtext" [styleClass]="styleclassname">
   your text here...
 <jk-text-marker>
 ```
+``` html
+inputQuery => user search query.
+styleClass => your custome styleclass name.
+```
+TS
 ``` ts 
 @Component({
     selector: 'app-selector',
@@ -21,13 +27,9 @@
 })
 export class appcomponent{}
 ```
+Note: You must need to add encapsulation in component decorator. Moreinfo checkout https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html
 
-``` html
-inputQuery => user search query.
-styleClass => your custome styleclass name.
-```
-
-Eg:
+SCSS
 ``` scss
 .customeStyle {
   background-color: yellow
