@@ -12,6 +12,16 @@
   your text here...
 <jk-text-marker>
 ```
+``` ts 
+@Component({
+    selector: 'app-selector',
+    template: 'app-selector.html',
+    styles: ['app-selector.scss'],
+    encapsulation: ViewEncapsulation.Emulated
+})
+export class appcomponent{}
+```
+
 ``` html
 inputQuery => user search query.
 styleClass => your custome styleclass name.
