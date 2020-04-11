@@ -1,4 +1,4 @@
-## How to Use
+## Usage
 ``` html
 <jk-text-marker [inputQuery]="searchtext" [styleClass]="styleclassname">
   your text here...
