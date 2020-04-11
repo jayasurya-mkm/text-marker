@@ -15,7 +15,6 @@ export class TextMarkerComponent implements OnInit {
     @ViewChild('content', null) content: ElementRef;
     @Input() styleClass: string;
     @Input() set inputQuery(value) {
-        console.log(value);
         this.innerHtmlContent = this.originalContent;
         this.innerHtmlContent = value ? this.innerHtmlContent && this.innerHtmlContent.replace(new RegExp(value, 'g'),
             `<span class="${this.styleClass}">${value}</span>`) : this.innerHtmlContent;
